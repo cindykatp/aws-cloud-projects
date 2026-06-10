@@ -1,1 +1,64 @@
+Linux Essentials Project
 
+## Overview
+
+This project demonstrates foundational Linux system administration skills using Ubuntu in a virtual machine (VMware Workstation). It covers system installation, command-line usage, user management, and shell scripting basics.
+
+---
+
+## Skills Demonstrated
+
+- Ubuntu Linux Installation
+- VMware Virtual Machine Setup
+- Linux Command Line (CLI)
+- File and Directory Management
+- Shell Variables and Scripting Basics
+- System Monitoring Commands
+- User Account Management
+
+---
+
+## Task 1: Ubuntu Installation (VM Setup)
+
+Installed Ubuntu Linux on a virtual machine using VMware Workstation.
+
+### Key Concepts:
+- Virtualization
+- Operating System Installation
+- System Configuration
+
+---
+
+## Task 2: Linux Terminal Commands
+
+### Commands Practiced:
+- `ls`, `ls -a`, `ls -l`, `ls -lt`
+- `echo`
+- `history`
+- Shell variables
+- Navigation commands
+
+### Key Learning:
+- File system navigation
+- Command options
+- Working with shell variables
+- Understanding terminal output
+
+---
+
+## Task 3: Control Statements
+
+### Concepts Covered:
+- Semicolon (;)
+- AND operator (&&)
+- OR operator (||)
+
+### Example Commands:
+```bash
+echo "Start"; ls; echo "End"
+mkdir test && cd test
+mkdir test || echo "Failed"
+
+Outcome
+
+This project demonstrates core Linux skills required for IT Support and Cloud Engineering roles, including system installation, command-line operations, and user administration.
