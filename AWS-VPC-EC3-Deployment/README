@@ -1,1 +1,83 @@
+AWS Cloud Infrastructure Final Project
+Overview
 
+This project demonstrates the deployment of cloud infrastructure within Amazon Web Services (AWS). The objective was to design and implement a secure environment by creating networking components and deploying an EC2 instance.
+
+Project Objectives
+Select an AWS Region
+Create a Virtual Private Cloud (VPC)
+Create a Subnet
+Create and configure a Security Group
+Generate an EC2 Key Pair
+Deploy and configure an EC2 Instance
+Implement IAM best practices using an administrative user
+AWS Services Used
+AWS IAM
+Amazon VPC
+Amazon EC2
+Security Groups
+Key Pairs
+Elastic Block Store (EBS)
+Project Implementation
+Step 1: Region Selection
+
+Selected Region: N. Virginia (us-east-1)
+
+The region was selected based on proximity, low latency, and service availability.
+
+Step 2: Virtual Private Cloud (VPC)
+
+Created a custom VPC using:
+
+IPv4 CIDR Block: 10.0.0.0/16
+Step 3: Subnet Configuration
+
+Created a subnet within the VPC using:
+
+CIDR Block: 10.0.1.0/24
+
+The subnet was configured as a public subnet through Internet Gateway and Route Table configuration.
+
+Step 4: Key Pair and Security Group
+
+Key Pair:
+
+Created and downloaded a PEM key file for secure SSH access.
+
+Security Group:
+
+Allowed SSH access (TCP Port 22)
+Source: 0.0.0.0/0
+Step 5: EC2 Deployment
+
+Configuration:
+
+AMI: Amazon Linux
+Instance Type: t2.micro
+Network: Custom VPC
+Subnet: Public Subnet
+Auto Assign Public IP: Enabled
+Security Group: Custom Security Group
+
+The instance was successfully launched and connected using the generated key pair.
+
+Screenshots
+
+Project screenshots documenting each stage of deployment are included in the repository.
+
+Included Evidence
+Region Selection
+VPC Creation
+Subnet Creation
+Key Pair Creation
+Security Group Configuration
+EC2 Launch Wizard
+Running EC2 Instance
+Successful Deployment
+Skills Demonstrated
+AWS Cloud Administration
+VPC Networking
+EC2 Deployment
+IAM Administration
+Security Group Configuration
+Infrastructure Provisioning
