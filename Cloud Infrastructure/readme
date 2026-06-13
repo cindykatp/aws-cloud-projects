@@ -1,1 +1,51 @@
+Cloud Infrastructure Project 3
+Overview
 
+This project demonstrates the setup of a basic AWS cloud infrastructure for a fictional startup called TECH-Start.
+
+The objective was to create and manage AWS resources while implementing role-based access control using IAM.
+
+Technologies Used
+Amazon Web Services (AWS)
+IAM (Identity and Access Management)
+EC2
+Amazon S3
+Tasks Completed
+1. IAM User Groups
+
+Created three user groups:
+
+Developers
+DataScientists
+Marketing
+2. Permissions Management
+
+Assigned permissions according to business requirements:
+
+Group	Permissions
+Developers	AmazonEC2FullAccess
+DataScientists	AmazonEC2FullAccess, AmazonS3FullAccess
+Marketing	AmazonS3ReadOnlyAccess
+3. User Creation
+
+Created users and assigned them to the appropriate IAM groups.
+
+4. EC2 Deployment
+
+Launched and configured an EC2 instance to host the startup's web application.
+
+5. S3 Storage
+
+Created and configured an Amazon S3 bucket for cloud storage.
+
+Screenshots
+
+All screenshots documenting the project are located in the /screenshots folder.
+
+Knowledge Checks
+
+The project also includes written responses covering:
+
+Availability Zones
+AWS CloudWatch vs CloudTrail
+AWS Well-Architected Framework
